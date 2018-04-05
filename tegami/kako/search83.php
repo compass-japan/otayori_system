@@ -329,7 +329,7 @@ border: transparent 8px solid;
            <br>
             <table class="kenkoub"  width="1100">
                <Tr>
-               <Td width="1000" height="12" align="center"style="font-family :'Yu Gothic',sans-serif;">体重：　$kg kg 　　血圧：　$mmhg mmHg</Td></Tr>
+               <Td width="1000" height="12" align="center"style="font-family :'Yu Gothic',sans-serif;font-size:20px;"><b>体重：　$kg kg 　　血圧：　$mmhg mmHg</b></Td></Tr>
             </table>
             <br>
             <table $style class="small" width="1000" align="center"style="table-layout: fixed;"height="100%">
