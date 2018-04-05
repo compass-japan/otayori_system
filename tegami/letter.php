@@ -514,7 +514,7 @@
 		<div class="bt">
 			<input type="image" src="img/finish_preview.png" width="150" name="send" id="form" onclick="return goServletB();">
 			<input type="image" src="img/finish_unfinished.png" width="150" name="send" id="form" onclick="goServletC();">
-			tets
+			
 		</div>
 
 
