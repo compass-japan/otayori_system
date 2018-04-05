@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../css/home.css" />
+	<link rel="stylesheet" href="../style.css">
+	<SCRIPT src="../js/jquery-3.2.1.min.js" type="text/javascript"></SCRIPT>
+	<title>入居者登録/削除</title>
+	<script>
+    $(function(){
+        $("input"). keydown(function(e) {
+            if ((e.which && e.which === 13) || (e.keyCode && e.keyCode === 13)) {
+                return false;
+            } else {
+                return true;
+            }
+        });
+    });
+</script>
+<style type="text/css">
+ <!--
+ .sakutou{
+ 	width: 1200px;
+ 	margin:auto;
+ 	margin-top: 50px;
+ }
+.saku{
+	width:800px;
+	padding-bottom: 14px;
+	margin:auto;
+	float:left;
+ }
+ .tou{
+	width:300px;
+	padding-bottom: 14px;
+	margin:auto;
+	float:right;
+ }
+ .back img{
+ 	margin-top: 30px;
+ }
+ -->
+ </style>
+</head>
+<body>
+	<br>
+	<h1 align="center">入居者登録/削除</h1>
+	
+		
+
+<div class="sakutou">
+
+	<div class="saku">
+	<h1 align="center">入居者削除</h1>	
+		<br>
+	<!--	<a target="Change" href="namedelete_171011.php">削除</a>
+		<a target="Change" href="nameupdate_new.php">情報更新</a>-->
+		<iframe src="namedelete_171011.php" name="Change" frameborder="0" width="850" height="400" align="left" scrolling="yes" frameborder ="1"></iframe>
+		
+	</div>
+	<div class="tou">
+		<h1>入居者登録</h1>
+		<br>
+		<iframe src="nameinsert.php" frameborder="0" width="300" height="270" align="right" scrolling="no" frameborder ="1"></iframe>
+		<div class="back">
+		<a href="../letter.php"><img src="../img/btn_back_edit.png" align="center" alt=""></a>
+		</div>
+	</div>
+</div>
+</body>
+</html>
