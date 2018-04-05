@@ -157,7 +157,7 @@ border: transparent 8px solid;
 
       </style>
   </head>
-  <body>
+  <body bgcolor="#f5f5f5">
   <form method="post" action="toshi1.php" id="form" name="s1" enctype="multipart/form-data">
   	
   <?php

@@ -117,7 +117,7 @@ $(function(){
 });
 </script>
   </head>
-  <body>
+  <body bgcolor="#f5f5f5">
   <form method="post" action="../pages/upletter.php?no=<?php echo $no ?>"id="form" name="s1" enctype="multipart/form-data">
   <?php
       $today = date("Y/m/d");
