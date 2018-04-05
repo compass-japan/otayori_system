@@ -504,7 +504,6 @@ while($row = mysql_fetch_array($result))
 							編集責任者：　<input type="text" name="reader" value="$reader" size="15">　　発行日：　<input type="text" size="5" name="day" value="$day" style="ime-mode: disabled;" maxlength="4">  年　<input type="text" size="3" name="day1" value="$day1" style="ime-mode: disabled;" maxlength="2">  月　<input type="text" size="3" name="day2" value="$day2"  style="ime-mode: disabled;" maxlength="2">  日　　年月
 							<select  name="name1">
 								<option value="$name1">$name1</option>
-								<option value="2017年">2017年</option>
 								<option value="2018年">2018年</option>
 								<option value="2019年">2019年</option>
 								<option value="2020年">2020年</option>
@@ -548,8 +547,8 @@ while($row = mysql_fetch_array($result))
 				  </div>
 					<h4>◆全体でのイベント（$sz_txt $sz1_txt ）</h4>
 					<p>全体のイベント写真とコメントを入れてください<br>（8文字まで）</p>
-					<p><span id="photo_file0"></span></p>
-					<p><img class="cursor" src="../img/photo_all.png" onclick="click0()"></p>
+					
+					<p><img class="cursor" src="../img/photo_all.png" onclick="click0()"><p id="photo_file0"></p></p>
 					<input type="file" name="imgup0" id="photo_file0" class="photo_file0" multiple="" src="$photo0">
 					<p><input type="text" maxlength="8" name="capc" value="$capc" class="capc_tx"  placeholder="写真のコメントを入れて下さい"></p>
 				</div>
@@ -619,7 +618,7 @@ EOM;
 		}
 	//	var stt = "explorer.exe /n,/e,/root,C:\\Users\\Okada kazuo\\Desktop\\album\\" + roomnoSS;
 		if(roomnoSS !=""){
-			var stt = "explorer.exe /n,/e,/root,C:\\Users\\Okada kazuo\\Desktop\\album\\" + roomnoSS;
+			var stt = "explorer.exe /n,/e,/root,C:\\Users\\sato\\Desktop\\album\\" + roomnoSS;
 				new ActiveXObject("WScript.Shell").Run(stt)
 			}
 		}
