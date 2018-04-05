@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "游ゴシック","ＭＳ ゴシック";
+}
+
+header {
+	text-align: center;
+	width: 100%;
+	color: #333;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+
+/* 選択ボタン */
+
+#top-contents {
+	font-size: 0;
+	margin: 160px auto 0 auto;
+	width: 1060px;
+}
+
+.select-box {
+	display: inline-block;
+	margin-right: 20px;
+	width: 248px;
+	padding: 16px 0;
+	border: 1px solid;
+	text-align: center;
+	font-size: 20px;
+}
+
+.select-box:first-of-type {
+	padding: 0;
+}
+
+.select-box:last-of-type {
+	margin-right: 0;
+}
+
+.select-box a {
+	display: inline-block;
+	width: 248px;
+	padding: 16px 0;
+	color: #333;
+	text-decoration: none;
+}
+
+#select-letter {
+	border-color: #fa8072;
+}
+
+#select-letter:hover {
+	background-color: #fa8072;
+	transition: all 0.3s;
+}
+
+#select-letter:hover > a {
+	color: #fff;
+}
+
+#select-notice {
+	border-color: #708090;
+}
+
+#select-notice:hover {
+	color: #fff;
+	background-color: #708090;
+	transition: all 0.3s;
+}
+
+#select-kizuna {
+	border-color: #2e8b57;
+}
+
+#select-kizuna:hover {
+	color: #fff;
+	background-color: #2e8b57;
+	transition: all 0.3s;
+
+}
+
+#select-regist {
+	border-color: brown;
+}
+
+#select-regist:hover {
+	color: #fff;
+	background-color: brown;
+	transition: all 0.3s;
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	text-align: right;
+	color: #fff;
+	background-color: #733300;
+}
+
+@media screen and ( min-width: 481px ) and ( max-width: 1059px ) {
+	#top-contents {
+		margin-top: 100px;
+		width: 520px;
+	}
+	#select-kizuna, #select-regist {
+		margin-top: 20px;
+	}
+
+	#select-notice {
+		margin-right: 0;
+	}
+} 
+
+@media screen and ( max-width: 480px ) {
+	#top-contents {
+		margin-top: 20px;
+		width: 250px;
+	}
+	.select-box {
+		margin-top: 20px;
+		margin-right: 0;
+	}
+}
