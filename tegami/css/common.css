@@ -1,0 +1,42 @@
+﻿@charset "utf-8";
+
+/* =======================================
+
+	CommonElements
+
+======================================= */
+
+#container {
+	margin: 0 auto;
+	width: 600px;
+	text-align: left;
+}
+
+p {
+	padding: 0 0 1.5em 0;
+	font-size: 14px;
+	line-height: 1.8em;
+}
+
+#fixedTop {
+	right: 10px;
+	bottom: 10px;
+	width: 75px;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	display: none;
+	background: #000;
+	position: fixed;
+	z-index: 9999;
+	border-radius: 5px;
+	-webkit-transform: translateZ(0);
+}
+#fixedTop:hover {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	opacity: 0.7;
+}
