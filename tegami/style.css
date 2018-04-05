@@ -1,0 +1,207 @@
+﻿body{
+	font-family: "ＫＦひま字";
+}
+.wrap{
+	width:1000px;
+	height:840px;
+	margin:0 auto;
+	//color: red;
+}
+
+
+.zentai{
+	
+	width:450px;
+	padding-bottom: 15px;
+	margin:auto;
+	background-color:#deb887;
+	float:left;
+}
+.zentai h2,p,h4{
+	margin-left: 13px;
+
+}
+.zentai0{
+	padding-top: 10px;
+	padding-bottom: 156px;
+	width:400px;
+	margin:auto;
+	background-color:#b79b5b;
+	
+}
+.zentai1{
+	padding-top: 10px;
+	padding-bottom: 156px;
+	width:400px;
+	margin:auto;
+	background-color:#b79b5b;
+	
+}
+.zentai11{
+	padding-top: 10px;
+	padding-bottom: 125px;
+	width:400px;
+	margin:auto;
+	background-color:#b79b5b;
+	
+}
+.zentai111{
+	padding-top: 10px;
+	padding-bottom: 89px;
+	width:400px;
+	margin:auto;
+	background-color:#b79b5b;
+	
+}
+.zentai12{
+	padding-top: 10px;
+	padding-bottom: 189px;
+	width:400px;
+	margin:auto;
+	background-color:#b79b5b;
+	
+}
+.zentai{
+	
+	width:450px;
+	padding-bottom: 13px;
+	margin:auto;
+	background-color:#deb887;
+	float:left;
+}
+textarea{
+	width:360px;
+}
+#cool_upload {
+  position: relative;
+  overflow: hidden;
+	margin-top: -15px;
+	text-align: center;
+}
+.ichiranButtonBox{
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+}
+#cool_upload{
+	text-align: right;
+	margin-right: 30px;
+}
+#cool_upload_form{
+   position: absolute;
+  //top: 36;
+  //right: 0;
+  height: 18px;
+  filter: alpha(opacity = 0); /* for IE6, IE7 */
+  opacity: 0;
+  //z-index: 1;
+ // cursor: pointer;
+ margin-left: -130px;
+// margin-top: 33px;
+}
+.name{
+	width:530px;
+	padding-bottom: 14px;
+	margin:auto;
+	background-color:#d6c6af;
+	float:right;
+}
+.namez{
+	font-size: 20px;
+}
+.name11{
+	width:530px;
+	padding-bottom: 14px;
+	margin:auto;
+	background-color:#d6c6af;
+	float:right;
+	margin-bottom: 15px;
+}
+.name1{
+	padding-top: 10px;
+	padding-bottom: 7px;
+	width:500px;
+	margin:auto;
+	background-color:#9e9478;
+	
+}
+.name h2{
+	margin-left: 20px;
+}
+select{
+	margin-top: -10px;
+	margin-left: 20px;
+}
+.photo1{
+	width:440px;
+}
+.photoBox{
+	margin-left:20px;
+}
+.up{
+	margin-top:20px;
+}
+.mleft-10{
+	vertical-align: middle;
+}
+.photo_file0{
+	display:none;
+}
+#photo_file0{
+	//margin-left:230px;
+	//margin-top:-30px;
+}
+.photo_file1{
+	display:none;
+}
+.photo_file2{
+	display:none;
+}
+.photo_file3{
+	display:none;
+}
+.photo_file4{
+	display:none;
+}
+.photo_file11{
+	display:none;
+}
+.photoGaiyou{
+	width:180px;
+	height:20px;
+	//margin:auto;
+	text-align:left;
+}
+.photoGaiyou span{
+	font-family: Verdana, "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "メイリオ", Meiryo, sans-serif;
+	font-size:12px;
+	color:#aaa;
+}
+.cursor{
+	cursor: pointer;
+}
+
+div.bt{
+	width:336px;
+	margin:10px auto 0 auto;
+	//margin-top: 10px;
+	text-align:center;
+}
+div.bt0{
+	width:336px;
+	margin:-10px auto 0 auto;
+	//margin-top: 10px;
+	text-align:center;
+}
+div.bt1{
+	width:336px;
+	margin:30px auto 0 auto;
+	//margin-top: 10px;
+	text-align:center;
+}
+div.bt11{
+	width:336px;
+	margin:70px auto 0 auto;
+	//margin-top: 10px;
+	text-align:center;
+}
