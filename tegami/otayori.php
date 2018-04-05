@@ -90,6 +90,6 @@ function jumpPage() {
  </SCRIPT>
 </head>
 <body>
-	 <h1 align="center"><img src="img/now_loading.gif" alt="画像"><h1>
+	 <h1 align="center"><img src="img/now_loading.gif" alt="画像" width="450"><h1>
 </body>
 </html>
