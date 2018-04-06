@@ -391,7 +391,7 @@ EOM;
 							<tr><td><img class="photo11" src="$photo11"></td></tr>
 						</table><br>
 						<div align="center" style="font-size:24px;">$cap11</div>
-					</div><br><br><br>
+					</div><br><br><br><br><br>
 					<div class="foot"></div>
 				</div>
 EOM;

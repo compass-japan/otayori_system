@@ -320,17 +320,14 @@ border: transparent 8px solid;
            <Td height="90" align="center" valign="top" style="font-family :'Yu Gothic',sans-serif;"><Font size="5" color="" >$capc</Font></Td>
            </Tr>
            <Tr>
-           <Td height="17"colspan="2"></Td>
+           <Td width="1000" height="12" align="center"style="font-family :'Yu Gothic',sans-serif;font-size:20px;" colspan="3"><b>体重：　$kg kg 　　血圧：　$mmhg mmHg</b></Td>
            </Tr>
             <Tr>
            <Td align="center" border="5"  valign="top" colspan="3" bgcolor="#63584e"style="font-family :'Yu Gothic',sans-serif; font-size:29px; padding-top:14px;"><Font color="white" ><b>今月の$name 様のご様子</b></Font></Td>
            </Tr>
            </Table>
            <br>
-            <table class="kenkoub"  width="1100">
-               <Tr>
-               <Td width="1000" height="12" align="center"style="font-family :'Yu Gothic',sans-serif;font-size:20px;"><b>体重：　$kg kg 　　血圧：　$mmhg mmHg</b></Td></Tr>
-            </table>
+
             <br>
             <table $style class="small" width="1000" align="center"style="table-layout: fixed;"height="100%">
                <Tr>
