@@ -80,7 +80,7 @@ $result = mysql_query("INSERT INTO complet(name,day,reader,name1,name2,info,yote
 <html lang="ja">
 <head>
       <meta charset="UTF-8">
-      <title>Document</title>
+      <title>11月</title>
 </head>
 <body"#deb887">
 <br>

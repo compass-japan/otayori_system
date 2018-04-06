@@ -13,7 +13,7 @@ $result = mysql_query("INSERT INTO complet(name,day,reader,name1,name2,info,yote
 <html lang="ja">
 <head>
 	<meta charset="UTF-8">
-	<title>2018</title>
+	<title>2018年</title>
     <link rel="stylesheet" href="../css/home.css" />
 </head>
 <body>
